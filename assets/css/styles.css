@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+
+    background-color:antiquewhite;
+}
+
+.header-logo {
+    font-weight: bold;
+
+    font-size: 20px;
+
+    color: black;
+
+    margin: 0;
+
+    display: inline;
+
+    text-decoration: none;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    float: right;
+
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+
+    margin: 0 30px;
+
+    font-weight: lighter;
+
+    font-size: 18px;
+}
+
+.about-me h2{
+    text-align: center;
+
+}
+
+.about-me {
+    image-resolution: 200px;
+    
+    margin: 10px 0;
+}
