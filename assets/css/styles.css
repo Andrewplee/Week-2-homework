@@ -43,12 +43,13 @@ header nav ul li {
 }
 /*end of header styling*/
 
-/*styling for about-me section starts*/
-.about-me h2{
+/*main section styling*/
+.content h2 {
     text-align: center;
-
+    margin-top: 30px;
+    font-weight: bold;
 }
-
+/*styling for about-me section starts*/
 .about-me {
     image-resolution: 200px;
     margin: 10px 0;
@@ -60,13 +61,21 @@ header nav ul li {
     background-size: 50% 50%;
 }
 
+.about-me p {
+    display: block;
+    text-align: center;
+}
 /*end of about-me section*/
 
 /*portfolio section begins*/
+.portfolio {
+    margin-bottom: 200px;
+}
+
 .portfolio-body {
     display: grid;
     margin: 15px;
-    grid-gap: 10px;
+    grid-gap: 30px;
 }
 /*making projects fit into a box*/
 .run-buddy {
@@ -82,7 +91,11 @@ header nav ul li {
     justify-content: center;
     padding: 10px;
     text-align: center;
-    position: ;
+}
+
+.portfolio-body img {
+    display: block;
+    margin-bottom: 5px;
 }
 
 .run-buddy img {
@@ -94,6 +107,33 @@ header nav ul li {
 .run-buddy p {
     overflow: auto;
     width: 500px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.horiseon {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display:flex;
+    flex-direction: column;
+    max-height: fit-content;
+    height:auto;
+    max-width: fit-content;
+    width: auto;
+    border: 3px solid lightgrey;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.horiseon img {
+    width: 400px;
+    height: 280px;
+    background-size: 50% 50%;
+}
+
+.horiseon p {
+    width: 400px;
     text-align: justify;
     font-size: 16px;
 }
