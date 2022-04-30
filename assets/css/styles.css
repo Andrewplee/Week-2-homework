@@ -187,8 +187,10 @@ header nav ul li {
 footer {
     margin: 30px auto;
     justify-content: center;
-    width: 600px;
     display: flex;
+    background: antiquewhite;
+    height: 50px;
+    padding-top: 18px;
 }
 
 @media screen and (max-width: 768px) {
