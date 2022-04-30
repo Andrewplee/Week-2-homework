@@ -53,6 +53,7 @@ main {
 .content h2 {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ main {
 }
 
 .portfolio h2 {
-    margin: 50px auto auto;
+    margin: 50px auto 20px auto;
     width: 600px;
 }
 
@@ -100,17 +101,18 @@ main {
 /*portfolio description ends*/
 
 /*portfolio-body begins*/
-.portfolio h3 {
-    margin-bottom: 20px;
-
-}
 .portfolio-body {
     display: flex;
     margin: 15px;
     grid-gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.portfolio h3 {
+    margin-bottom: 20px;
+
+}
 .portfolio-body img {
     display: block;
     margin-bottom: 5px;
@@ -134,7 +136,7 @@ main {
 }
 
 .run-buddy p {
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
     padding-top: 5px;
 }
@@ -162,7 +164,7 @@ main {
 }
 
 .horiseon p {
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
     padding-top: 5px;
 }
@@ -207,8 +209,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     main,
-    nav,
-    footer {
+    nav {
         flex-direction: column;
     }
 }
