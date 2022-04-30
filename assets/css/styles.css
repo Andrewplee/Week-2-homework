@@ -1,57 +1,49 @@
+/*general styling, wanting to keep it simple with black text, grey border/outline, and white background*/
 * {
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
 }
 
+/*starting with the body*/
 body {
     color: black;
-
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*header styling starts*/
 header {
     padding: 20px 35px;
-
     background-color:antiquewhite;
 }
 
 .header-logo {
     font-weight: bold;
-
     font-size: 20px;
-
     margin: 0;
-
     display: inline;
-
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header a {
     text-decoration: none;
-
     color: black;
 }
 
 header nav {
     float: right;
-
     margin: 7px 0;
-
     font-weight: bold;
 }
 
 header nav ul li {
     display: inline;
-
     margin: 0 30px;
-
     font-size: 18px;
 }
+/*end of header styling*/
 
+/*styling for about-me section starts*/
 .about-me h2{
     text-align: center;
 
@@ -59,14 +51,30 @@ header nav ul li {
 
 .about-me {
     image-resolution: 200px;
-    
     margin: 10px 0;
 }
 
 .about-me img {
     width: auto;
-
     height: 300px;
-
     background-size: 50% 50%;
+}
+
+/*end of about-me section*/
+
+/*portfolio section begins*/
+.portfolio-body {
+    display: grid;
+
+    margin: 15px;
+}
+/*making projects fit into a box*/
+.run-buddy {
+    display:flex;
+    flex-direction: column;
+    max-height: 250px;
+    height:auto;
+    max-width: 300px;
+    width: auto;
+    border: 1px solid lightgrey;
 }
