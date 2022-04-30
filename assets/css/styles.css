@@ -17,17 +17,15 @@ header {
     background-color:antiquewhite;
 }
 
-.header-logo {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0;
-    display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 header a {
     text-decoration: none;
     color: black;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
 }
 
 header nav {
