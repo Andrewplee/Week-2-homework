@@ -55,6 +55,8 @@ main {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 /*styling for about-me section starts*/
