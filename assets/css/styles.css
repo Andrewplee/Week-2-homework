@@ -52,17 +52,17 @@ header nav ul li {
 
 /*styling for about-me section starts*/
 .about-me {
-    margin: 10px 0;
+    margin: auto;
     justify-content: center;
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
 }
 
 .about-me img {
-    width: auto;
+    width: 500px;
     height: 300px;
-    background-size: 50% 50%;
+    margin: auto;
 }
 
 .about-me p {
@@ -72,8 +72,20 @@ header nav ul li {
 /*end of about-me section*/
 
 /*portfolio section begins*/
-.portfolio {
-    margin-bottom: 200px;
+.portfolio h2 {
+    margin: 50px auto auto;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-description {
+    margin: auto;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio h3 {
@@ -86,7 +98,6 @@ header nav ul li {
 }
 /*making projects fit into a box*/
 .run-buddy {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     display:flex;
     flex-direction: column;
@@ -114,7 +125,6 @@ header nav ul li {
 }
 
 .horiseon {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     display:flex;
     flex-direction: column;
@@ -133,4 +143,40 @@ header nav ul li {
     width: 400px;
     text-align: justify;
     font-size: 16px;
+}
+/*contact me starts*/
+.contact-me {
+    margin: auto;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me p {
+    display: block;
+    text-align: center;
+}
+
+.contact-me p a {
+    color: black;
+    font-size: 18px;
+}
+
+.contact-info {
+    margin: auto;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+}
+/*contact me ends*/
+
+
+/*footer starts*/
+footer {
+    margin: 30px auto;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+
 }
