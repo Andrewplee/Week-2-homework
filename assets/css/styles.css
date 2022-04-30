@@ -28,13 +28,14 @@ header a {
     display: inline;
 }
 
-header nav {
+nav {
     float: right;
     margin: -10px 0 0 0;
     font-weight: bold;
+    display: flex;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin: 0 30px;
     font-size: 18px;
@@ -42,6 +43,13 @@ header nav ul li {
 /*end of header styling*/
 
 /*main section styling*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .content h2 {
     text-align: center;
     margin-top: 30px;
@@ -163,6 +171,8 @@ header nav ul li {
 .contact-me p {
     display: block;
     text-align: center;
+    padding: 0 100px;
+    margin: 10px 0;
 }
 
 .contact-me p a {
@@ -181,11 +191,10 @@ header nav ul li {
 /*footer starts*/
 footer {
     margin: 30px auto;
-    justify-content: center;
-    display: flex;
     background: antiquewhite;
     height: 50px;
     padding-top: 18px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
