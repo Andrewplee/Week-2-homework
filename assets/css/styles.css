@@ -53,7 +53,6 @@ header nav ul li {
 /*styling for about-me section starts*/
 .about-me {
     margin: auto;
-    justify-content: center;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -72,20 +71,19 @@ header nav ul li {
 /*end of about-me section*/
 
 /*portfolio section begins*/
-.portfolio h2 {
-    margin: 50px auto auto;
-    justify-content: center;
-    width: 600px;
+.portfolio {
     display: flex;
     flex-direction: column;
 }
 
+.portfolio h2 {
+    margin: 50px auto auto;
+    width: 600px;
+}
+
 .portfolio-description {
     margin: auto;
-    justify-content: center;
     width: 600px;
-    display: flex;
-    flex-direction: column;
 }
 
 .portfolio h3 {
@@ -178,5 +176,13 @@ footer {
     justify-content: center;
     width: 600px;
     display: flex;
+}
 
+@media screen and (max-width: 768px) {
+    main,
+    nav,
+    content,
+    footer {
+        flex-direction: column;
+    }
 }
