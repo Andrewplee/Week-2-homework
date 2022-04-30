@@ -180,7 +180,6 @@ header nav ul li {
 }
 /*contact me ends*/
 
-
 /*footer starts*/
 footer {
     margin: 30px auto;
@@ -194,7 +193,6 @@ footer {
 @media screen and (max-width: 768px) {
     main,
     nav,
-    content,
     footer {
         flex-direction: column;
     }
