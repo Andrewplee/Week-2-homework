@@ -49,10 +49,14 @@ header nav ul li {
     margin-top: 30px;
     font-weight: bold;
 }
+
 /*styling for about-me section starts*/
 .about-me {
-    image-resolution: 200px;
     margin: 10px 0;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-me img {
@@ -72,8 +76,11 @@ header nav ul li {
     margin-bottom: 200px;
 }
 
+.portfolio h3 {
+    margin-bottom: 20px;
+}
 .portfolio-body {
-    display: grid;
+    display: flex;
     margin: 15px;
     grid-gap: 30px;
 }
@@ -83,10 +90,6 @@ header nav ul li {
     font-size: 22px;
     display:flex;
     flex-direction: column;
-    max-height: fit-content;
-    height:auto;
-    max-width: fit-content;
-    width: auto;
     border: 3px solid lightgrey;
     justify-content: center;
     padding: 10px;
@@ -101,7 +104,6 @@ header nav ul li {
 .run-buddy img {
     width: 500px;
     height: 350px;
-    background-size: 50% 50%;
 }
 
 .run-buddy p {
@@ -116,10 +118,6 @@ header nav ul li {
     font-size: 22px;
     display:flex;
     flex-direction: column;
-    max-height: fit-content;
-    height:auto;
-    max-width: fit-content;
-    width: auto;
     border: 3px solid lightgrey;
     justify-content: center;
     padding: 10px;
@@ -129,7 +127,6 @@ header nav ul li {
 .horiseon img {
     width: 400px;
     height: 280px;
-    background-size: 50% 50%;
 }
 
 .horiseon p {
