@@ -30,10 +30,10 @@ To enable mobile view, I have added a "@media" syntax, which will allow specific
 
 # Usage
 
-Here is a screenshot of my portfolio page.
+Below is a screenshot of my portfolio page.
 ![sample image for my portofolio page with header, about-me, and the top part of my projects section](/assets/images/Portfolio%20Sample.png)
 
-Here is the screenshot of my portfolio page in mobile view.  As seen, the projects have stacked on top of eachother because the webpage is viewed with an iphone 12, in this case.
+Below is the screenshot of my portfolio page in mobile view.  As seen, the projects have stacked on top of eachother because the webpage is viewed with an iphone 12, in this case.
 ![sample image for my portfolio page in mobile view](/assets/images/portfolio-sample-mobile.png)
 
 
