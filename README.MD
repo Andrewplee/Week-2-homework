@@ -22,11 +22,20 @@ Moving on to the **About-Me** section, I start out with a title and a brief intr
 
 Similar to the **About-Me** section, I have a title and a short description of the **Projects** section introducting my portfolios.  Below the description, I have two projects.  Each project has a title of it's own, a sample picture , and a short description of the project.  I have designed each project so that by clicking on the image, the users will be directed to the deployed project page.  As for the designing of the **Projects** section, I have also created a flex container (individual project) within a flex container (the **Projects** section).  In addition to the flex properties, I have styled this section so that if the width of the monitor or screen is smaller than a certain size, the projects will reposition themselves into a column.  Furthermore, I wanted to highlight the first project that I have worked on, so I have enlarged my first project.
 
-The Contact-Me section, again, contains a sentence welcoming anyone to reach out to me.  I have my email, phone number (fake), and two icons linking to my GitHub Page and LinkedIn page.  I have designed the welcoming sentence so that the width of forms an upside down triangle.
+The **Contact-Me** section, again, contains a sentence welcoming anyone to reach out to me.  I have my email, phone number (fake), and two icons linking to my GitHub Page and LinkedIn page.  I have designed the welcoming sentence so that the width of forms an upside down triangle.
 
 Finally, I have the footer with a line with my copyright.
 
+To enable mobile view, I have added a "@media" syntax, which will allow specific formatting of the page once reached a lower screen resolution.
+
 # Usage
+
+Here is a screenshot of my portfolio page.
+![sample image for my portofolio page with header, about-me, and the top part of my projects section](/assets/images/Portfolio%20Sample.png)
+
+Here is the screenshot of my portfolio page in mobile view.  As seen, the projects have stacked on top of eachother because the webpage is viewed with an iphone 12, in this case.
+![sample image for my portfolio page in mobile view](/assets/images/portfolio-sample-mobile.png)
+
 
 # Credits
 
