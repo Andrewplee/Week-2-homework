@@ -39,5 +39,7 @@ Here is the screenshot of my portfolio page in mobile view.  As seen, the projec
 
 # Credits
 
+This project has adopted ideas from [Austin Pham](https://auspham.dev/) with the layout of his portfolio and followed tutorial on Flex Properties through [A Complete Guide to Flexbox by Chris Coyier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). 
+
 # License
 Copyright (c) [2022] [Andrew P. Lee]
